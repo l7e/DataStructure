@@ -113,6 +113,16 @@ public class DynamicArray<E>
         return data[index];
     }
 
+    public E getLast()
+    {
+        return get(size - 1);
+    }
+
+    public E getFirst()
+    {
+        return get(0);
+    }
+
     //更改指定索引的值
     public void set(int index, E element)
     {
